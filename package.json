@@ -4,7 +4,8 @@
   "description": "",
   "main": "bin/index.js",
   "bin": {
-    "migrations": "bin/migrations.js"
+    "migrations": "bin/migrations.js",
+    "init": "bin/init.js"
   },
   "keywords": [],
   "author": "",
