@@ -4,8 +4,8 @@
   "description": "",
   "main": "bin/index.js",
   "bin": {
-    "migrations": "bin/migrations.js",
-    "init": "bin/init.js"
+    "mysql-migrations": "bin/migrations.js",
+    "mysql-migrations:init": "bin/init.js"
   },
   "keywords": [],
   "author": "",
