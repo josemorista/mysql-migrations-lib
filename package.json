@@ -6,7 +6,11 @@
   "bin": {
     "mysql-migrations": "bin/migrations.js"
   },
-  "keywords": [],
+  "keywords": [
+  	"mysql",
+	"migrations",
+	"lightweight"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
