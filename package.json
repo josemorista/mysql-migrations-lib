@@ -4,7 +4,10 @@
   "description": "",
   "main": "bin/index.js",
   "bin": {
-    "mysql-migrations": "bin/migrations.js",
+    "mysql-migrations:create": "bin/migrations.js create",
+    "mysql-migrations:run": "bin/migrations.js run",
+    "mysql-migrations:execute": "bin/migrations.js run",
+    "mysql-migrations:revert": "bin/migrations.js revert",
     "mysql-migrations:init": "bin/init.js"
   },
   "keywords": [],

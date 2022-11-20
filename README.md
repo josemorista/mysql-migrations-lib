@@ -23,14 +23,20 @@ npx mysql-migrations:init
 
 After initialized, the following commands are available:
 
-```bash
-npx mysql-migrations create {{nameOfTheMigrations}}
-```
+### Create new migration
 
 ```bash
-npx mysql-migrations run
+npx mysql-migrations:create {{nameOfTheMigration}}
 ```
 
+### Run available migrations
+
 ```bash
-npx mysql-migrations revert
+npx mysql-migrations:run
+```
+
+### Revert last migration
+
+```bash
+npx mysql-migrations:revert
 ```

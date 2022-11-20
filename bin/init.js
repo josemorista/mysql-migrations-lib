@@ -2,10 +2,19 @@
 
 require('dotenv/config');
 
-const { mkdirSync } = require('fs');
+const { mkdirSync, statSync } = require('fs');
 const { join } = require('path');
 
 const migrationsDir = process.env.MIGRATIONS_DIR;
 
-mkdirSync(join(migrationsDir, 'up'));
-mkdirSync(join(migrationsDir, 'down'));
+try {
+  statSync(join(migrationsDir, 'up'));
+} catch (error) {
+  mkdirSync(join(migrationsDir, 'up'));
+}
+
+try {
+  statSync(join(migrationsDir, 'down'));
+} catch (error) {
+  mkdirSync(join(migrationsDir, 'down'));
+}
