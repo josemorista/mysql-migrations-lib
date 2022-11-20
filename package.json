@@ -8,6 +8,7 @@
     "mysql-migrations:run": "bin/migrations.js run",
     "mysql-migrations:execute": "bin/migrations.js run",
     "mysql-migrations:revert": "bin/migrations.js revert",
+    "mysql-migrations": "bin/migrations.js",
     "mysql-migrations:init": "bin/init.js"
   },
   "keywords": [],
