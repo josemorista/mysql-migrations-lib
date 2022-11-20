@@ -1,15 +1,15 @@
 {
   "name": "mysql-migrations-lib",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "",
   "main": "bin/index.js",
   "bin": {
     "mysql-migrations": "bin/migrations.js"
   },
   "keywords": [
-  	"mysql",
-	"migrations",
-	"lightweight"
+    "mysql",
+    "migrations",
+    "lightweight"
   ],
   "author": "",
   "license": "ISC",
