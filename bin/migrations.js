@@ -20,6 +20,10 @@ switch (command) {
     commandRunner = require('../src/revert');
     break;
   }
+  case 'init': {
+    commandRunner = require('../src/init');
+    break;
+  }
 }
 
 if (!commandRunner) throw new Error('Invalid migration command, try: run,create or revert');

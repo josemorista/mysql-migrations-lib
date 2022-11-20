@@ -18,7 +18,7 @@ MYSQL_DATABASE={{database}}
 Next run init script to prepare folder structure:
 
 ```bash
-npx mysql-migrations:init
+npx mysql-migrations init
 ```
 
 After initialized, the following commands are available:
@@ -26,17 +26,17 @@ After initialized, the following commands are available:
 ### Create new migration
 
 ```bash
-npx mysql-migrations:create {{nameOfTheMigration}}
+npx mysql-migrations create {{nameOfTheMigration}}
 ```
 
 ### Run available migrations
 
 ```bash
-npx mysql-migrations:run
+npx mysql-migrations run
 ```
 
 ### Revert last migration
 
 ```bash
-npx mysql-migrations:revert
+npx mysql-migrations revert
 ```
