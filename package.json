@@ -6,6 +6,10 @@
   "bin": {
     "mysql-migrations": "bin/migrations.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/josemorista/mysql-migrations-lib.git"
+  },
   "keywords": [
     "mysql",
     "migrations",
